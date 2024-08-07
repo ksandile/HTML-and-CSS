@@ -58,10 +58,6 @@ We welcome contributions to improve this project. Here are a few ways you can he
 - **Improving Documentation**: If you see something that can be improved in this README or other documentation, feel free to suggest changes.
 - **Adding Features**: If you have an idea for a new feature, open an issue and let's discuss it.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
-
 ## Contact
 
 For any inquiries or feedback, please contact:
