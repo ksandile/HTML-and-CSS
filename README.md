@@ -64,6 +64,6 @@ For any inquiries or feedback, please contact:
 
 - **Sandile Kitayi**
 - Email: ksandile127@gmail.com
-- GitHub: [SandileKitayi](https://github.com/SandileKitayi)
+- GitHub: [SandileKitayi](https://github.com/ksandile)
 
 Thank you for visiting CareOnCall!
