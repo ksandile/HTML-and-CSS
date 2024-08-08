@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CareonCall</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
@@ -17,7 +18,7 @@
                     <li><a href="#home" class="home">Home</a></li>
                     <li><a href="#service" class="service">Services</a></li>
                     <li><a href="#about" class="about">About Us</a></li>
-                    <li><a href="#" class="contact">Contact</a></li>
+                    <li><a href="#contact" class="contact">Contact</a></li>
                     <li><a href="#" class="signIn">Sign In</a></li>
                 </ul>
             </div>
@@ -98,23 +99,23 @@
                     <p>My contribution was that, I dealt with header and Home section.</p>
                 </div>
                 <div class="team-member">
-                    <img src="images/member2.jpg" alt="Member 2" class="team-image">
-                    <h3>Member 2</h3>
+                    <img src="images/pholisa.jpg" alt="Member 2" class="team-image">
+                    <h3>I'm Pholisa Nofemele</h3>
                     <p>My contribution was that, I managed the services section and implemented the request functionality.</p>
                 </div>
                 <div class="team-member">
-                    <img src="images/member3.jpg" alt="Member 3" class="team-image">
-                    <h3>Member 3</h3>
+                    <img src="images/lutho.jpg" alt="Member 3" class="team-image">
+                    <h3>I'm Lutho Mtyelwa</h3>
                     <p>My contribution was that, I focused on the layout and design of the contact section.</p>
                 </div>
                 <div class="team-member">
-                    <img src="images/member4.jpg" alt="Member 4" class="team-image">
-                    <h3>Member 4</h3>
+                    <img src="images/sethu.jpg" alt="Member 4" class="team-image">
+                    <h3>I'm Sethu Xolilizwe</h3>
                     <p>My contribution was that, I handled the integration of backend services and database management.</p>
                 </div>
                 <div class="team-member">
-                    <img src="images/member5.jpg" alt="Member 5" class="team-image">
-                    <h3>Member 5</h3>
+                    <img src="images/siyahluma.jpg" alt="Member 5" class="team-image">
+                    <h3>I'm Siyahluma Mbulali</h3>
                     <p>My contribution was that, I worked on the About Us section and overall site optimization.</p>
                 </div>
             </div>
@@ -125,6 +126,77 @@
                 <p>Our goal is to continue improving and expanding our services to meet the evolving needs of our customers. We aim to build a community of satisfied clients who trust us to take care of their everyday tasks, allowing them to focus on what truly matters. We are committed to maintaining the highest standards of professionalism, reliability, and customer satisfaction.</p>
             </div>
         </div>
-    </section>    
+    </section> 
+
+    <!-- Section for Contact -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2 class="contact-header">Got any queries? Feel free to contact us!</h2>
+            <form action="https://formspree.io/f/xpzvnylz" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><i class="fa-solid fa-phone"></i> Phone: 073 552 2380</p>
+                <p><i class="fa-solid fa-envelope"></i> Email: ksandile127@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Address: 34 16th St, Rusthof, Cape Town, 7140</p>
+                <div class="social-media">
+                    <h3>Follow Us</h3>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="animation-container">
+                <div class="text-container">
+                    <span class="text-care">Care</span>
+                    <div class="animate animate-1"></div>
+                    <div class="animate animate-2"></div>
+                </div>
+                <div class="text-container">
+                    <span class="text-on">On</span>
+                    <div class="animate animate-3"></div>
+                    <div class="animate animate-4"></div>
+                </div>
+                <div class="text-container">
+                    <span class="text-call">Call</span>
+                    <div class="animate animate-5"></div>
+                    <div class="animate animate-6"></div>
+                </div>
+            </div>                       
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>About Us</h3>
+                <p>Care On Call provides professional mobile services right to your doorstep. Our team is dedicated to offering convenience, quality, and affordability.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fa-solid fa-phone"></i> Phone: 073 552 2380</p>
+                <p><i class="fa-solid fa-envelope"></i> Email: ksandile127@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Address: 34 16th St, Rusthof, Cape Town, 7140</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Care On Call. All rights reserved.</p>
+        </div>
+    </footer>    
 </body>
 </html>

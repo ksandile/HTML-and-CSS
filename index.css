@@ -234,3 +234,245 @@ header {
     line-height: 1.6;
     text-align: left;
 }
+
+/* Contact Section Styles */
+/* Contact Section Styles */
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns layout */
+    gap: 20px; /* Adjust gap between grid items */
+    position: relative; /* Ensure the animation container stays within bounds */
+}
+
+/* Grid Items */
+.contact-header {
+    grid-column: span 3; /* Header spans all three columns */
+    font-size: 2rem;
+    color: #FFAA33;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    grid-column: span 3; /* Form spans all three columns */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #2196f3;
+    outline: none;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    width: 620px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196f3;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #1976d2;
+}
+
+.contact-info {
+    grid-column: span 1; /* Adjust based on the number of columns */
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    color: #2196f3;
+    margin-right: 10px;
+}
+
+/* Social Media Styles */
+.social-media {
+    grid-column: span 1; /* Adjust based on the number of columns */
+    margin-top: 20px;
+}
+
+.social-media h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    font-size: 2rem;
+    margin: 0 10px;
+    transition: color 0.7s ease;
+}
+
+/* Animation */
+.animation-container {
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-container {
+    position: relative;
+    width: 150px; 
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container span {
+    font-size: 2rem;
+    font-weight: bold;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.animate {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Make the element circular */
+    border: 2px solid; /* Border to represent the line */
+    animation: rotate 4s linear infinite;
+}
+
+/* Rotate animation */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-1 {
+    border-color: #FFAA33;
+    width: 120px;
+    height: 120px;
+}
+
+.animate-2 {
+    border-color: #33FF57;
+    width: 100px;
+    height: 120px;
+}
+
+.animate-3 {
+    border-color: #FFAA33;
+    width: 90px;
+    height: 90px;
+}
+
+.animate-4 {
+    border-color: #FF33A6;
+    width: 70px;
+    height: 90px;
+}
+
+.animate-5 {
+    border-color: #FFAA33;
+    width: 110px;
+    height: 110px;
+}
+
+.animate-6 {
+    border-color: #33D7FF;
+    width: 90px;
+    height: 110px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-info,
+.footer-links,
+.footer-contact {
+    text-align: left;
+}
+
+.footer-info p,
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.875rem;
+}
